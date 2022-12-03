@@ -1,5 +1,6 @@
-#include "stdio.h"
-#include "stdlib.h"
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 #include "1.h"
 #include "3.h"
 #include "4.h"
@@ -11,10 +12,13 @@ int main(int argc, char const *argv[])
     // char* arr="aabbbbioncd";
     // int result=frequency(arr,'b');
     // printf("%d",result);
-    char* s="aabc";
+    char* s="abbbbbbbc";
     char* result=removeChar(s,'a');
     puts(result);
-    printf("%s",result);
+    // printf("%s\n",result);
+    // while(*(result++)){
+    //     printf("%s",*result);
+    // }
 
 
 
